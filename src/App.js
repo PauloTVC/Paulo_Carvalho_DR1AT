@@ -180,7 +180,7 @@ export default function App() {
       <footer>
         <p>Learn about Mobile Robots @2024</p>
         <p onClick={() => SetPage(1)}>
-          Contatcs <FaCommentDots />
+          contacts <FaCommentDots />
         </p>
       </footer>
     </div>
