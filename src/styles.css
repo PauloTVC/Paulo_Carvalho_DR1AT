@@ -42,7 +42,8 @@ footer {
   color: white;
 }
 
-header, footer {
+header,
+footer {
   flex-shrink: 0;
 }
 
@@ -94,11 +95,11 @@ header, footer {
   display: grid;
   margin: 0;
   gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  align-items: stretch; 
-  overflow-y: auto; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: stretch;
+  overflow-y: auto;
   max-height: calc(100vh - 20%);
-  justify-content: space-around; 
+  justify-content: space-around;
   padding: 0 1rem;
   box-sizing: border-box;
 }
@@ -125,13 +126,12 @@ header, footer {
   background-color: steelblue;
   border: 2px solid gold;
   flex-direction: column;
-  width: 200px
+  width: 200px;
   display: flex;
-  z-index: 99; 
+  z-index: 99;
   padding: 10px;
   border-radius: 5px;
 }
-
 
 .Lista {
   display: flex;
@@ -152,7 +152,7 @@ header, footer {
   display: flex;
   flex-direction: column;
   max-height: calc(100vh - 20%);
-  overflow-y: auto; 
+  overflow-y: auto;
 }
 
 .Media {
@@ -181,14 +181,14 @@ header, footer {
 }
 
 .pic {
-  width: 100%; 
-  max-width: 400px; 
-  min-width: 100px; 
-  object-fit: cover; 
-  border-radius: 10px; 
+  width: 100%;
+  max-width: 400px;
+  min-width: 100px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
-.subsubitem{
+.subsubitem {
   background-color: steelblue;
   border-radius: 5px;
   padding: 5px;
@@ -258,4 +258,3 @@ header, footer {
     flex-direction: column;
   }
 }
-
